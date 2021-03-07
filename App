@@ -1,0 +1,20 @@
+package week5CodingAssignment;
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Logger SpacedLogger = new SpacedLogger();
+
+		SpacedLogger.log("H e l l o");
+		SpacedLogger.error("H e l l o");
+
+		Logger AsteriskLogger = new AsteriskLogger();
+
+		AsteriskLogger.log("Hello");
+		AsteriskLogger.error("Error");
+
+	}
+
+}
